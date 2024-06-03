@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auticon Table</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="../auction1/index.html" class="logo">
+                <img src="image/logo.png" alt="">
+            </a>
+            <ul id="main-menu">
+                <li><a href="../auction1/index.html">Home</a></li>
+                <li><a href="">Product</a>
+                    <ul class="sub-menu">
+                        <li><a href="">meu 2.1</a></li>
+                        <li><a href="">meu 2.2</a>
+                        <ul class="sub-menu">
+                            <li><a href="">meu 2.1.1</a></li>
+                            <li><a href="">meu 2.2.2</a></li>
+                            <li><a href="">meu 2.3.3</a></li>
+                            <li><a href="">meu 2.4.4</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="">meu 2.3</a></li>
+                        <li><a href="">meu 2.4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="../auction1/contact.us.html">Contact</a></li>
+            </ul>
+            <div id="actions">
+                <form action="" id="search">
+                    <input type="text"  id="search-box">
+                    <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <div class="item user-item">
+                    <form action="../auction1/login.html">
+                        <button class="user"><i class="fa-solid fa-user fa-xl" style="color: goldenrod;"></i></button>
+                    </form>
+                </div>
+                <div class="item">
+                    <form action="../auction1/login.html">
+                        <button class="user"><i class="fa-solid fa-bell fa-xl" style="color: goldenrod;"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+         
+        <div class="cover">
+            <h1 class="auction-title">Golden Dragon Katana</h1>
+            <div class="summary">
+                <img src="image/goldenkatanadragon.webp" alt="">
+                <div class="content">
+                    <div>
+                        <span class="live-now">LIVE NOW</span>
+                        <span>28 may 2024  10:00 A.M</span>
+                    </div>
+                    <div>
+                        <span class="icon"><i class="fa-solid fa-gavel"></i></span>
+                        <span><a href="">View all auctions for Katana</a></span>
+                    </div>
+                    <div>
+                        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <span>Japan Gay</span>
+                    </div>
+                    <a href="">Show Auction details</a>
+                </div>
+                <div class="auction-btn">
+                    <button class="btn">Get Approved to Bid</button>
+                    <p><a href="luongdaugia.html">Watch autions</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cover-content">
+            <div class="page-content">
+                <div class="filter-content">
+                <div class="group">
+                    <form class="search-term"> 
+                        <input type="text" id="search-lots" placeholder="search lots">
+                        <button class="lot-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <div class="select-opt">
+                        <label><input type="radio" name="choosing" value="in this auction" checked="checked"><span>in this auction</span></label>
+                        <br>
+                        <label><input type="radio" name="choosing" value="lot number"><span>lot number</span></label>
+
+                    </div>
+                </div>
+
+            </div>
+                <div class="refine-result">
+                    <div>
+                        <h1 class="auction-title">Refine Your Search</h1>
+                    </div>
+                    <div>
+                        <div class="img-search">
+                            <a href="">Lots with image only</a>
+                        </div>
+                        <div class="sale-section">
+                            <h3>Sale section</h3>
+                            <ul>
+                                <li><a href="">Jewellery & Silver</a></li>
+                            </ul>
+                        </div>
+                        <div class="estimate">
+                            <div class="angle">
+                                <h3>
+                                    <span>Estiamte</span>
+                                    <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                                </h3>
+                            </div>
+                            <div class="Change-price">
+                                <label class="max-min"><input type="text" class="min set-price" placeholder="Min">to <input type="text" class="max set-price" placeholder="Max"></label>
+                                <button class="estimate-btn">Apply</button>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <div class="angle">
+                                <h3>
+                                    <span>Category</span>
+                                    <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                                </h3>
+                            </div>
+                            <div>
+                                <label class="cate-box"><input type="text" placeholder="Enter category..." class="input-cate"></label>
+                            </div>
+                            <ul>
+                                <li><span><a href="#">Jewellery(323)</a></span></li>
+                                <li><span><a href="#">Silver(333)</a></span></li>
+                                <li><span><a href="#">Vehicle(13)</a></span></li>
+                                <li><span><a href="#">Pollictacic(3)</a></span></li>
+                                <li><span><a href="#">Clock & Camera</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="creator">
+                            <div class="angle">
+                                <h3>
+                                    <span>Creator / Brand</span>
+                                    <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                                </h3>
+                            </div>
+                            <div>
+                                <label class="creator-box"><input type="text" placeholder="Enter brand..." class="input-creator"></label>
+                            </div>
+                            <ul>
+                                <li><span><a href="">England(25)</a></span></li>
+                                <li><span><a href="">Open Championship (25)</a></span></li>
+                                <li><span><a href="">Scotland (24)</a></span></li>
+                                <li><span><a href="">Tony Jacklin (19)</a></span></li>
+                                <li><span><a href="">Bobby Jones (18)</a></span></li>
+                                <li><span><a href="">Gary Player (18)</a></span></li>
+                                <li><span><a href="">Sandy Lyle (18)</a></span></li>
+                                <li><span><a href="">Phil Mickelson (12)</a></span></li>
+                                <li><span><a href="">Olympics (12)</a></span></li>
+                                <li><span><a href="">John Daly (11)</a></span></li>
+                                <li><span><a href="">Bernhard Langer (10)</a></span></li>
+                            </ul>
+                        </div>
+                        <div class="item-Type">
+                            <div class="angle">
+                                <h3>
+                                    <span>Item Type</span>
+                                    <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                                </h3>
+                            </div>
+                            <div>
+                                <label class="item-box"><input type="text" placeholder="Enter item..." class="input-item"></label>
+                            </div>
+                            <ul>
+                                <li><span><a href="">Golf (439)</a></span></li>
+                                <li><span><a href="">Necklace (113)</a></span></li>
+                                <li><span><a href="">Ring (93)</a></span></li>
+                                <li><span><a href="">Pendant (71)</a></span></li>
+                                <li><span><a href="">Pendant (71)</a></span></li>
+                                <li><span><a href="">Cutlery (24)</a></span></li>
+                                <li><span><a href="">Diamond (24)</a></span></li>
+                                <li><span><a href="">Wristwatch (20)</a></span></li>
+                                <li><span><a href="">Watch (19)</a></span></li>
+                                <li><span><a href="">Tray (18)</a></span></li>
+                                <li><span><a href="">Locket (12)</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination-top">
+                <div class="select-control">
+                    <div class="panication-control">
+                        <span>383 items</span>
+                        <div>
+                            <span>60</span>
+                            <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                        </div>
+                        <span>per page</span>
+                    </div>
+                    <div class="grid-select">
+                        <span><i class="fa-solid fa-grip-vertical fa-rotate-270"></i></span>
+                        <span><i class="fa-solid fa-table-cells-large"></i></span>
+                        <div>
+                        <span>lots number</span>
+                        <span><i class="fa-solid fa-angle-up fa-rotate-180" style="color: goldenrod;"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="con-auction">    
+                    <div class="upcom-border">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/audi.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Audi S5 Blue</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: Germany</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/rllercord.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Rolleicord</h3>
+                                    <p>Start Bid: $12000</p>
+                                    <p>Type: Camera</p>
+                                    <p>Location: Florida, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/jewelry.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Jewelry Collection</h3>
+                                    <p>Start Bid: $3500</p>
+                                    <p>Type: Jewelry</p>
+                                    <p>Location: Russia</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="image/funiture.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Luxury Funiture</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/chair.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Royal Chair</h3>
+                                    <p>Start Bid: $800</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: Russia</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/katana2.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Orochimaru's Katana</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Weapons</p>
+                                    <p>Location: Canada</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/dia1.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Rarest Blue Diamond</h3>
+                                    <p>Start Bid: $10.000</p>
+                                    <p>Type: Jelwerly</p>
+                                    <p>Location: Roman</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/portable paleo.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>PORTABLE ART FROM UPPER PALEOLITHIC PERIOD</h3>
+                                    <p>Start Bid: $150.000</p>
+                                    <p>Type: Paleolithic</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/chopard-24.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Chopard</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/ferrari_j50_3_4_fr.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Ferrari J50</h3>
+                                    <p>Start Bid: $300.000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: New York, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/shotgun.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Old Shotgun</h3>
+                                    <p>Start Bid: $1000</p>
+                                    <p>Type: Weapons</p>
+                                    <p>Location: Las Vegas, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/2022-bugatti-centodieci.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Bugatti Centodieci</h3>
+                                    <p>Start Bid: $500.000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: Florida, USA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/audi.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Audi S5 Blue</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: Germany</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/rllercord.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Rolleicord</h3>
+                                    <p>Start Bid: $12000</p>
+                                    <p>Type: Camera</p>
+                                    <p>Location: Florida, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/jewelry.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Jewelry Collection</h3>
+                                    <p>Start Bid: $3500</p>
+                                    <p>Type: Jewelry</p>
+                                    <p>Location: Russia</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="image/funiture.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Luxury Funiture</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/audi.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Audi S5 Blue</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: Germany</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/rllercord.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Rolleicord</h3>
+                                    <p>Start Bid: $12000</p>
+                                    <p>Type: Camera</p>
+                                    <p>Location: Florida, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/jewelry.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Jewelry Collection</h3>
+                                    <p>Start Bid: $3500</p>
+                                    <p>Type: Jewelry</p>
+                                    <p>Location: Russia</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="image/funiture.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Luxury Funiture</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="image/audi.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Audi S5 Blue</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Super Car</p>
+                                    <p>Location: Germany</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/rllercord.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Rolleicord</h3>
+                                    <p>Start Bid: $12000</p>
+                                    <p>Type: Camera</p>
+                                    <p>Location: Florida, USA</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <img src="image/jewelry.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Jewelry Collection</h3>
+                                    <p>Start Bid: $3500</p>
+                                    <p>Type: Jewelry</p>
+                                    <p>Location: Russia</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="image/funiture.jpg" alt="">
+                                <div class="list-upcom">
+                                    <h3>Luxury Funiture</h3>
+                                    <p>Start Bid: $2000</p>
+                                    <p>Type: Funiture</p>
+                                    <p>Location: India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="list-item">
+                        <div class="bar">
+                            <a href="#" class="bar-item button hover-black"></a>
+                            <a href="#" class="bar-item button black">1</a>
+                            <a href="#" class="bar-item button hover-black">2</a>
+                            <a href="#" class="bar-item button hover-black">3</a>
+                            <a href="#" class="bar-item button hover-black">4</a>
+                            <a href="#" class="bar-item button hover-black">5</a>
+                            <a href="#" class="bar-item button hover-black">6</a>
+                            <a href="#" class="bar-item button hover-black">7</a>
+                            <a href="#" class="bar-item button hover-black">9</a>
+                            <a href="#" class="bar-item button hover-black">9</a>
+                            <a href="#" class="bar-item button hover-black">10</a>
+    
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+
+        </div>
+        
+        
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <p>Millions of unique items are added to
+                     The Auction Table each year from 700 expert auction houses worldwide.</p>
+            </div>
+            <div class="box box-1">
+                <h3>About Us</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">About Us</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Careers</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Press</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box box-1">
+                <h3>Guides</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">How To Buy</a>
+                    </div>
+                    <div class="item">
+                        <a href="">How To Sell</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Buying Guides</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Price Guides</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box box-1">
+                <h3>Help</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Customer Service</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Contact Us</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Live Chat</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Site Map</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Seller Application</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box box-1 ">
+                <h3>Contact</h3>
+                <form action="">
+                    <input type="text" placeholder="Email address">
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
